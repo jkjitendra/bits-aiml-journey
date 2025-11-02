@@ -1,0 +1,28 @@
+Meta data for Student Perfirmance Data
+The dataset includes features such as the student's age, gender, family size, parental education levels, home address type, study habits, extracurricular activities participation, health status, and more. The target variable, 'failures', denotes the number of past class failures, transformed into a binary variable where 0 indicates no past failures and 1 indicates one or more failures.
+
+school : student's school (binary: 'SP' -St. Paul's School or 'GS' - George School)
+sex : student's sex (binary: 'F' - female or 'M' - male)
+age : student's age (numeric: from 15 to 22)
+address :student's home address type (binary: 'U' - urban or 'R' - rural)
+famsize: family size (binary: 'LE3' - less or equal to 3 or 'GT3' - greater than 3)
+Pstatus : parent's cohabitation status (binary: 'T' - living together or 'A' - apart)
+Medu: mother's education (numeric: 0 - none, 1 - primary education (4th grade), 2 -5th to 9th grade, 3- secondary education or 4 - higher education)
+Fedu: father's education (numeric: 0 - none, 1 - primary education (4th grade), 2 - 5th to 9th grade, 3 - secondary education or 4 - higher education)
+Mjob: mother's job (nominal: 'teacher', 'health' care related, civil 'services' (e.g. administrative or police), 'at_home' or 'other')
+Fjob: father's job (nominal: 'teacher', 'health' care related, civil 'services' (e.g. administrative or police), 'at_home' or 'other')
+Guardian: student's guardian (nominal: 'mother', 'father' or 'other')
+Traveltime:	home to school travel time (numeric: 1 - <15 min., 2 - 15 to 30 min., 3 - 30 min. to 1 hour, or 4 - >1 hour)
+Studytime: weekly study time (numeric: 1 - <2 hours, 2 - 2 to 5 hours, 3 - 5 to 10 hours, or 4 - >10 hours) 
+Schoolsup: extra educational support (binary: yes or no)
+Famsup:	family educational support (binary: yes or no)
+Paid: extra paid classes within the course subject  (binary: yes or no)
+Activities:	extra-curricular activities (binary: yes or no)
+Nursery attended:  nursery school (binary: yes or no)
+higher	: wants to take higher education (binary: yes or no)
+internet: Internet access at home (binary: yes or no)
+freetime: free time after school (numeric: from 1 - very low to 5 - very high)
+gout: going out with friends (numeric: from 1 - very low to 5 - very high)
+health: current health status (numeric: from 1 - very bad to 5 - very good)
+absences: number of school absences (numeric: from 0 to 93)
+failures: Failed in any class (binary: 0-No failures , 1 - Failed), Target Variable

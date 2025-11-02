@@ -1,0 +1,12 @@
+Data Set Information: 
+ 
+VariableName	Role	  Type   	Description	                                                                                           	        Missing Values
+Area	        Feature	  Integer	Gives the number of pixels within the boundaries of the raisin.		                                                        no
+MajorAxisLength	Feature	  Continuous	It measures the environment by calculating the distance between the boundaries of the raisin and the pixels around it.		no
+MinorAxisLength	Feature	  Continuous	Gives the length of the main axis, which is the longest line that can be drawn on the raisin.		                        no
+Eccentricity	Feature	  Continuous	Gives the length of the small axis, which is the shortest line that can be drawn on the raisin.		                        no
+ConvexArea	Feature	  Integer	It gives a measure of the eccentricity of the ellipse, which has the same moments as raisins.		                        no
+Extent	        Feature	  Continuous	Gives the number of pixels of the smallest convex shell of the region formed by the raisin.		                        no
+Perimeter	Feature	  Continuous	Gives the ratio of the region formed by the raisin to the total pixels in the bounding box.		                        no
+Class           Target	  Categorical   Kecimen and Besni raisin.		                                                                                        no
+
