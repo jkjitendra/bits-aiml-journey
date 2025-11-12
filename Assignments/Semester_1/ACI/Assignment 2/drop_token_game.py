@@ -284,8 +284,8 @@ def ai_turn_handler(board):
     if is_game_over(board):
         return board
 
-    print("\n AI's turn...")
     display_board(board)
+    print("\n AI's turn...")
 
     # If AI can win immediately, play that move
     for column in list_legal_columns(board):
