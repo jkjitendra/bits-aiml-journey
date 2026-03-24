@@ -1,76 +1,67 @@
 # 🎓 BITS Pilani M.Tech (AIML) – Journey Repository
 
-This repository serves as a **comprehensive portfolio** of my academic learning, hands-on projects, research explorations, and professional growth throughout the program.
+This repository serves as a **comprehensive portfolio** of my academic learning, hands-on projects, research explorations, and professional growth throughout the M.Tech in Artificial Intelligence and Machine Learning program at BITS Pilani.
 
 ---
 
-## 🧭 Repository Overview
+## 🧭 Repository Structure
 
-This repository is structured to include:
-- 📚 **Coursework:** Notes, slides, references, and key learnings from each semester.
-- 🧩 **Assignments:** Coding tasks, experiments, and applied problem-solving exercises.
-- 🚀 **Projects:** Mini and major projects covering real-world AI/ML applications.
-- 🧠 **Notes:** My conceptual summaries and research-based topic breakdowns.
-- 📑 **Publications:** Research and academic writing developed during the program.
-- ⚙️ **Tools & Templates:** Helpful Jupyter notebooks, scripts, and reusable utilities.
+```
+bits-aiml-journey/
+├── Coursework/
+│   ├── Lecture 0/              # Mathematical foundations (Linear Algebra, Probability, Calculus)
+│   ├── Python/                 # Python programming resources & exercises
+│   ├── Semester_1/
+│   │   ├── ACI/                # Artificial & Computational Intelligence
+│   │   ├── ISM/                # Introduction to Statistical Methods
+│   │   ├── MFML/               # Mathematical Foundations for Machine Learning
+│   │   └── ML/                 # Machine Learning
+│   └── Semester_2/
+│       ├── DMML/               # Data Management for ML
+│       ├── DNN/                # Deep Neural Networks
+│       ├── DRL/                # Deep Reinforcement Learning
+│       └── NLP/                # Natural Language Processing
+├── LICENSE
+└── README.md
+```
+
+---
+
+## 📚 Coursework Details
+
+### Prerequisites & Foundations
+
+| Topic | Description |
+|-------|-------------|
+| **Lecture 0** | Matrix & Determinants, Linear Algebra, Vectors, Probability, Calculus (Limits & Derivatives) |
+| **Python** | Python programming books, course handout, and exercises |
+
+### Semester 1
+
+| Course | Code | Contents |
+|--------|------|----------|
+| **Artificial & Computational Intelligence (ACI)** | SE ZG557 | Lectures (1–12), Assignments (2), Books (AIMA), Webinars (Bayesian Networks, Q-Learning, Search Algorithms), Question Papers |
+| **Introduction to Statistical Methods (ISM)** | AIML ZC418 | Lectures (1–11), Assignments (2), Books (Probability & Statistics, ESL, etc.), Webinars, Question Papers |
+| **Mathematical Foundations for ML (MFML)** | AIMLCZC416 | Lectures (1–13), Assignments (2 — PCA, etc.), Books (Linear Algebra, Mathematics for ML), Webinars (4), Question Papers |
+| **Machine Learning (ML)** | AIML ZG565 | Lectures (1–12), Assignments (Lab — Classification on multiple datasets), Books (Bishop PRML, ISLR, Tom Mitchell), Webinars (EDA, Data Preprocessing), Question Papers |
+
+### Semester 2 *(In Progress)*
+
+| Course | Contents |
+|--------|----------|
+| **Data Management for ML (DMML)** | Slides (L1–L7: Data Representations, Architectures, Pipelines, DataOps, ML Lifecycle), Study Notes (7 topics), Assignments, Tutorials (Kafka, Spark, Data Warehousing, Lambda/Kappa Architecture), Question Papers |
+| **Deep Neural Networks (DNN)** | Slides (Lecture 1–5), Supplementary Lectures (6), Study Notes, Assignments, Webinar (Logic Gates, Perceptron), Practice Notebooks (Linear Regression, PyTorch Tensors), Question Papers |
+| **Deep Reinforcement Learning (DRL)** | Lectures (1–10), Assignments, Books (Sutton & Barto, RL with Python), Multi-Armed Bandit problems, Question Papers |
+| **Natural Language Processing (NLP)** | Slides (Lecture 1–7), Webinar, Practice Notebooks (TF-IDF Search Engine, Word2Vec, Embeddings Visualization, N-gram Language Models, One-Hot to Word2Vec), Question Papers |
 
 ---
 
 ## 🧩 Core Focus Areas
 
-- Machine Learning Fundamentals  
-- Deep Learning & Neural Networks  
-- Natural Language Processing (NLP)  
-- Computer Vision  
-- Generative AI (LLMs, Diffusion Models, Prompt Engineering)  
-- Data Science & Analytics  
-- MLOps, Model Deployment, and Scalability  
-- Responsible & Explainable AI  
-
----
-
-## 🧪 Projects
-
-| Project Name | Description | Tools/Frameworks |
-|---------------|--------------|------------------|
-
-
----
-
-## 📘 Academic Context
-
-- 🎓 **Institution:** Birla Institute of Technology & Science (BITS Pilani)  
-- 🧮 **Program:** M.Tech in Artificial Intelligence and Machine Learning  
-- 🕒 **Duration:** 2025 – 2027
-- 🧭 **Purpose:** To document academic progress, build research visibility, and create an open learning archive.  
-
----
-
-## 🧑‍💻 Author
-
-**👋 Jitendra Kumar Tiwari**  
-Software Developer | AI/ML Enthusiast
-
-🔗 [LinkedIn](https://www.linkedin.com/in/jitendra-tiwari-004943182/) • [GitHub](https://github.com/jkjitendra) • [Email](mailto:jitendrakumartiwari849@gmail.com)
-
----
-
-## 🪪 License
-
-This repository is licensed under the **MIT License** — meaning you’re free to use, modify, and distribute the content, provided you include appropriate attribution.
-
-See the [LICENSE](./LICENSE) file for details.
-
----
-
-## 🌟 Future Goals
-
-- Build real-world AI systems with measurable impact  
-- Publish research in applied AI/ML domains  
-- Contribute to open-source and academic communities  
-- Explore Responsible and Explainable AI frameworks  
-
----
-
-> _"Never Hesitate to Learn Whatever the Subject Be -> " Learn to Teach ""_  
-> — Jitendra Tiwari
+- Machine Learning Fundamentals
+- Deep Learning & Neural Networks
+- Natural Language Processing (NLP)
+- Deep Reinforcement Learning
+- Data Management & MLOps
+- Statistical Methods & Probability
+- Mathematical Foundations (Linear Algebra, Optimization, Calculus)
